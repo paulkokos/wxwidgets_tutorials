@@ -3,3 +3,4 @@ project(wxwidgets_tutorials)
 
 set(CMAKE_CXX_STANDARD 20)
 add_subdirectory(Chapter001)
+add_subdirectory(Chapter002)
