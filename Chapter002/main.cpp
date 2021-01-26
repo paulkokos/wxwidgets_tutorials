@@ -146,7 +146,7 @@ public:
         wxInitAllImageHandlers();
 
         wxBoxSizer* sizer = new wxBoxSizer(wxHORIZONTAL);
-        frame = new wxFrame(NULL, wxID_ANY, wxT("Hello wxDC"), wxPoint(50,50), wxSize(800,600));
+        frame = new wxFrame(NULL, wxID_ANY, wxT("Pavlos Kokozidis [3774] | Thesis"), wxPoint(50,50), wxSize(1024,1024));
 
         // then simply create like this
         drawPane = new wxImagePanel( frame, wxT("image.jpg"), wxBITMAP_TYPE_JPEG);
