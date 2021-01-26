@@ -134,6 +134,7 @@ void wxImagePanel::OnSize(wxSizeEvent& event){
 // ----------------------------------------
 // how-to-use example
 
+
 class MyApp: public wxApp
 {
 
