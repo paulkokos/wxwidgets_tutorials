@@ -147,10 +147,10 @@ public:
         wxInitAllImageHandlers();
 
         wxBoxSizer* sizer = new wxBoxSizer(wxHORIZONTAL);
-        frame = new wxFrame(NULL, wxID_ANY, wxT("Pavlos Kokozidis [3774] | Thesis"), wxPoint(50,50), wxSize(1024,1024));
+        frame = new wxFrame(NULL, wxID_ANY, wxT("Pavlos Kokozidis [3774] |Diploma Thesis"), wxPoint(50,50), wxSize(1024,1024));
 
         // then simply create like this
-        drawPane = new wxImagePanel( frame, wxT("image.jpg"), wxBITMAP_TYPE_JPEG);
+        drawPane = new wxImagePanel( frame, wxT("/home/paulkokos/CLionProjects/wxwidgets_tutorials/etc/image.jpg"), wxBITMAP_TYPE_JPEG);
         sizer->Add(drawPane, 1, wxEXPAND);
 
         frame->SetSizer(sizer);
